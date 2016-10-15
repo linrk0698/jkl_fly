@@ -26,3 +26,20 @@ df=df.join(pd.DataFrame([1,4,9,16,25],index=['a','b','c','d','y'],columns=['squa
 df[['numbers','squares']].mean()
 df[['numbers','squares']].std()
 
+# Time Series Data
+
+a = np.random.standard_normal((9,4))
+a.round(6)
+df = pd.DataFrame(a)
+df.columns=[['No1','No2','No3','No4']]
+df
+df['No2'][3]
+dates = pd.date_range('2015-1-1',periods = 9,freq = 'M')
+df.index = dates
+#analytics
+df.describe()
+np.sqrt(df)
+df['Quarter'] = ['Q1','Q1','Q1','Q2','Q2','Q2','Q3','Q3','Q3']
+groups = df.groupby('Quarter')
+
+groups.mean()
