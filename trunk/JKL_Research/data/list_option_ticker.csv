@@ -1,0 +1,5 @@
+ticker,underlying,index,step
+SPX,GSPC,1,5
+NDX,NDX,1,10
+EEM,EEM,0,0.5
+XLK,XLK,0,0.5
