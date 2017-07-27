@@ -13,7 +13,7 @@ from email.mime.text import MIMEText
 
 # Open a plain text file for reading.  For this example, assume that
 # the text file contains only ASCII characters.
-textfile = '../data/budgetArchive/201705.csv'
+textfile = '../data/budgetArchive/201706.csv'
 
 with open(textfile) as fp:
     # Create a text/plain message
