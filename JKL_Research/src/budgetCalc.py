@@ -50,15 +50,15 @@ output['TotalTransfer'] = outputTransfer.sum(axis=1)
 summary = output.iloc[:,len(output.columns)-3:len(output.columns)]
 output  = summary.join(output.iloc[:,0:len(output.columns)-3])
 output.round(2)
-
+output.fillna(0,inplace=True)
 # Print out the output
 
 if path.isfile(outputBudgetFilePath):
     existingBudget = pd.read_csv(outputBudgetFilePath,index_col=0)
     existingBudget.round(2)
-    existingBudget.update(output)
-    existingBudget = existingBudget.combine_first(output)
-    existingBudget.to_csv(outputBudgetFilePath,header=True,mode='w',index=True,float_format='%.2f')
+    existingBudget.fillna(0,inplace=True)
+    combinedBudget = output.combine_first(existingBudget)
+    combinedBudget.to_csv(outputBudgetFilePath,header=True,mode='w',index=True,float_format='%.2f')
 else:
     output.to_csv(outputBudgetFilePath,header=True,float_format='%.2f',mode='w',index=True)
     
