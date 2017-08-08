@@ -1,37 +1,38 @@
 ,Category,Budget
-0,Books,10.0
-1,Business Expense,0.0
-2,Cell Phone,170.0
-3,Charity,10.0
-4,D-Activities,10.0
-5,D-Coffee,30.0
-6,D-Fast Food,150.0
-7,D-Restaurant,50.0
-8,D-Travel,50.0
-9,Gifts,100.0
-10,Grocery,100.0
-11,Gym fees,0.0
-12,Health Care,20.0
-13,Property Tax,500.0
-14,Home Maintainence/Improvement,100.0
-15,Home Insurance,60.0
-16,Internet,48.0
-17,Laundry,0.0
-18,Magazines,0.0
-19,Mortgage/Rent,3116.0
-20,Movies/Software/Online Service,0.0
-21,Newspapers,15.0
-22,Parent Support,500.0
-23,Public Transit,200.0
-24,Religious organizations,20.0
-25,Salon/barber,20.0
-26,Taxi and rental,20.0
-27,Tax,170.0
-28,Gas,100.0
+0,Books,10
+1,Business Expense,0
+2,Cell Phone,170
+3,Charity,10
+4,D-Activities,10
+5,D-Coffee,30
+6,D-Fast Food,150
+7,D-Restaurant,50
+8,D-Travel,50
+9,Gifts,100
+10,Grocery,100
+11,Gym fees,0
+12,Health Care,20
+13,Property Tax,500
+14,Home Maintainence/Improvement,100
+15,Home Insurance,60
+16,Internet,48
+17,Laundry,0
+18,Magazines,0
+19,Mortgage/Rent,3116
+20,Movies/Software/Online Service,0
+21,Newspapers,15
+22,Parent Support,500
+23,Public Transit,200
+24,Religious organizations,20
+25,Salon/barber,20
+26,Taxi and rental,20
+27,Tax,170
+28,Gas,100
 29,Car Related,19.1
-30,Parking,0.0
-31,Uncategorized,0.0
-32,Utility,100.0
-33,Finance Charges,0.0
-34,Wedding,2000.0
-35,z-New Asset,
+30,Parking,0
+31,Uncategorized,0
+32,Utility,100
+33,Finance Charges,0
+34,Wedding,2000
+35,Childcare,300
+36,z-New Asset,
