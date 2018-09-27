@@ -8,7 +8,7 @@ Created on Wed May 24 20:23:47 2017
 import pandas as pd
 import os.path as op
 
-dataPath = '../data/ExportData0630.csv'
+dataPath = '../data/ExportData0731.csv'
 budgetPath = '../data/budget.csv'
 categoryMapPath = '../data/categoryMap.csv'
 inflowCategoryPath = '../data/inflowCategory.txt'
